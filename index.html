@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Aventura</title>
+</head>
+<body>
+    <main> 
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario.png" alt="">
+            <p>Você está em uma floresta encantada onde há um tesouro mágico
+                 <button class="btn-proximo" data-proximo="1">Floresta</button>
+         </div>
+        
+        <div class="passo ativo" id="passo-1">
+            <p>Você decide entrar na floresta por um caminho iluminado ou sombrio?
+                <button class="btn-proximo" data-proximo="2">caminho iluminado</button>
+                <button class="btn-proximo" data-proximo="3">caminho sombrio</button>
+            </div>
+               
+            <div class="passo ativo" id="passo-2">
+           <p>Após sua escolha você avança e logo se depara com um lago brilhante. 
+              <button class="btn-proximo" data-proximo="4">Nadar</button>
+              <button class="btn-proximo" data-proximo="5">Explorar margem</button>
+           </div>
+              
+           <div class="passo ativo" id="passo-3">
+           <p>Ao explorar você encontra uma arvore antiga
+             <button class="btn-proximo" data-proximo='6'>escalar a arvore</button>
+             <button class="btn-proximo" data-proximo="7">Setar-se a sombra</button>
+            </div>
+           
+            <div class="passo ativo" id="passo-4">
+            <p> Enquanto você descansa algo se move nas sombras</p>
+                <button class="btn-proximo" data-proximo="8">investigar o som</button>
+                 <button class="btn-proximo" data-proximo="9">ignorar os som</button>
+            </div>
+                
+            <div class="passo ativo" id="passo-5">
+                    <p>Você descobre uma linda fada</p>
+                   <button class="btn-proximo" data-proximo="10">conversar com a fada</button>
+                   <button class="btn-proximo" data-proximo="11">correr</button>
+              </div>
+                 
+              <div class="passo ativo" id="passo-6">
+                 <p>A fada se aprentra como guardia da floresta</p>
+                 <button class="btn-proximo" data-proximo="12">perguntar sobre o tesouro</button>
+                 <button class="btn-proximo" data-proximo="13">pedir para sair da floresta</button>
+                </div>
+               
+                <div class="passo ativo" id="passo-7">
+              <p>A guardiã oferece ajuda</p>
+              <button class="btn-proximo" data-proximo="14">aceitar ajuda</button>
+              <button class="btn-proximo" data-proximo="15">recusar ajuda</button>
+            </div>
+           
+            <div class="passo ativo" id="passo-8">
+             <p>Ela lhe da um mapa</p>
+             <button class="btn-proximo" data-proximo="16">seguir o mapa</button>
+             <button class="btn-proximo" data-proximo="17">estudar a floresta</button>
+            </div>
+           
+            <div class="passo ativo" id="passo-9">
+             <p>O mapa leva você a uma caverna misteriosa</p>
+             <button class="btn-proximo" data-proximo="18">entrar na caverna</button>
+             <button class="btn-proximo" data-proximo="19">acampar do lado de fora</button>
+            </div>
+            
+            <div class="passo ativo" id="passo-10">
+             <p>Dentro da caverna vocÊ encontra simbolos antigos</p>
+             <button class="btn-proximo" data-proximo="20">tentar decifrar</button>
+             <button class="btn-proximo" data-proximo="21">tirar fotos</button>
+            </div>
+           
+            <div class="passo ativo" id="passo-11">
+             <p>Após decifrar os símbolos, você descobre que eles indicam o caminho para o tesouro</p>
+             <button class="btn-proximo" data-proximo="22">correr</button>
+             <button class="btn-proximo" data-proximo="23">avançar com cautela</button>
+            </div>
+           
+            <div class="passo ativo" id="passo-12">
+              <img src="cenario.tesouro.png" alt="">
+                <p>Você finalmente chega no local do tesouro mágico!</p>
+            </div> 
+            
+        
+        
+
+            
+        </main>
+     <script src="script.js"></script>
+</body>
+</html>
+    
